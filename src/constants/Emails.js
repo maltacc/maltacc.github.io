@@ -3,23 +3,44 @@ export const home = [
         title: 'About Me',
         subject: "Hey, I'm Maggie!",
         description: 'Description',
-        time: '10pm'
+        time: 'Mar 23',
+        images: ['/attachments/logo192.png', '/attachments/logo192.png', '/attachments/logo192.png', '/attachments/logo192.png', '/attachments/logo192.png', '/attachments/logo192.png']
     },
     {
-        title: 'Test',
-        subject: 'Subject',
+        title: 'Previously At',
+        subject: 'My past internships and experiences :)',
         description: 'Description',
-        time: '10pm'
+        time: 'Mar 23',
+        images: ['/attachments/logo192.png']
     },
+    {
+      title: 'Looking Ahead',
+      subject: 'My upcoming and in-progress goals',
+      description: 'Description',
+      time: 'Mar 23',
+      images: []
+  },
+
 ];
 
 export const about = [
-  { id: 2, title: 'Test Email 1', subject: 'Promo Subject 1', description: 'Promo Description 1', time: '11:00 AM' },
+  { 
+    title: 'Test Email 1', 
+    subject: 'Promo Subject 1', 
+    description: 'Promo Description 1', 
+    time: '11:00 AM',
+    images: []
+  },
   // Add more promotion emails as needed...
 ];
 
 export const skills = [
-  { id: 3, title: 'Social Test 1', subject: 'Social Subject 1', description: 'Social Description 1', time: '12:00 PM' },
+  { title: 'Social Test 1',
+    subject: 'Social Subject 1',
+    description: 'Social Description 1',
+    time: '12:00 PM',
+    images: [] 
+  },
   // Add more social emails as needed...
 ];
 

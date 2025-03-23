@@ -112,6 +112,7 @@ const EmailList = () => {
                             subject={email.subject}
                             description={descriptions[email.title]}
                             time={email.time}
+                            images={email.images}
                         />
                     ))}
                 </>
@@ -125,6 +126,7 @@ const EmailList = () => {
                             subject={email.subject}
                             description={descriptions[email.title]}
                             time={email.time}
+                            images={email.images}
                         />
                     ))}
                 </>
@@ -138,6 +140,7 @@ const EmailList = () => {
                             subject={email.subject}
                             description={descriptions[email.title]}
                             time={email.time}
+                            images={email.images}
                         />
                     ))}
                 </>
@@ -151,6 +154,7 @@ const EmailList = () => {
                             subject={email.subject}
                             description={descriptions[email.title]}
                             time={email.time}
+                            images={email.images}
                         />
                     ))}
                 </>

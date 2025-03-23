@@ -14,11 +14,15 @@ import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import KeyboardIcon from '@mui/icons-material/Keyboard';
 import MarkdownToJSX from '../features/MarkdownToJSX';
+import StarBorderOutlinedIcon from '@mui/icons-material/StarBorderOutlined';
+import EmojiEmotionsOutlinedIcon from '@mui/icons-material/EmojiEmotionsOutlined';
+import ReplyOutlinedIcon from '@mui/icons-material/ReplyOutlined';
+import Box from '@mui/material/Box';
 
 const Mail = () => {
     const navigate = useNavigate();
     const location = useLocation();
-    const { title, subject, description, time } = location.state || {}; // Extract email data
+    const { title, subject, description, time, images } = location.state || {}; // Extract email data
 
     return (
     <div className="mail">
@@ -67,8 +71,26 @@ const Mail = () => {
             </div>
             <div className="mail__bodySubheader">
                 {/* <Avatar /> */}
-                <p style={{ fontWeight: 'bold' }}>{subject}</p>
-                <p className="mail__time">{time}</p>
+                <div className="mail__bodySubheaderLeft">
+                    <p style={{ fontWeight: 'bold' }}>{subject}</p>
+                </div>
+                <div className="mail__bodySubheaderRight">
+                    <p className="mail__time">
+                        {time}
+                    </p>
+                    <IconButton>
+                        <StarBorderOutlinedIcon />
+                    </IconButton>
+                    <IconButton>
+                        <EmojiEmotionsOutlinedIcon />
+                    </IconButton>
+                    <IconButton>
+                        <ReplyOutlinedIcon />
+                    </IconButton>
+                    <IconButton>
+                        <MoreVertOutlinedIcon />
+                    </IconButton>
+                </div>
             </div>
             <div className="mail__message">
                 {/* <p>{description}</p> */}
@@ -76,6 +98,28 @@ const Mail = () => {
                     <MarkdownToJSX file_name={title}/>
                 </div>
             </div>
+        </div>
+        <div className="mail__footer">
+        {/* <img src='/attachments/logo192.png' alt=""></img> */}
+        {/* {console.log("location.state", location.state)}
+        {console.log("images", images)} */}
+            {images?.map((image, index) => (
+                <div className="image__card">
+                    <Box
+                        component="img"
+                        sx={{
+                            height: '9rem',
+                            width: '12rem',
+                            maxHeight: { xs: '5rem', md: '20rem' },
+                            maxWidth: { xs: '5rem', md: '20rem' },
+                        }}
+                        style={{ backgroundColor: 'gray'}}
+                        alt=""
+                        src={image}
+                    />
+                    <div className="overlay__cardinfo"></div>
+                </div>
+            ))}
         </div>
     </div>
   )

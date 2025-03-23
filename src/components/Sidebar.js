@@ -14,7 +14,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
         <div className="sidebar_composeContainer">
-            <Button startIcon={<EditOutlinedIcon fontSize='large' style={{color: 'gray'}}/>} className="sidebar_compose">Compose</Button>
+            <Button onClick={() => window.location = 'mailto:maggieguo2138@gmail.com'} startIcon={<EditOutlinedIcon fontSize='large' style={{color: 'gray'}}/>} className="sidebar_compose">Contact</Button>
         </div>
         <div className="sidebar_container">
             <SidebarOption Icon={InboxRoundedIcon} title="Inbox" number={54} selected={true}/>

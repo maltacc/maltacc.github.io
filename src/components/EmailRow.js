@@ -5,11 +5,11 @@ import { CheckBoxOutlineBlank } from '@mui/icons-material'
 import StarBorderOutlinedIcon from '@mui/icons-material/StarBorderOutlined';
 import { useNavigate } from "react-router-dom";
 
-const EmailRow = ({ title, subject, description, time }) => {
+const EmailRow = ({ title, subject, description, time, images=[] }) => {
     const navigate = useNavigate();
     return (
     <div 
-        onClick={() => navigate('/mail', { state: { title, subject, description, time } })} 
+        onClick={() => navigate('/mail', { state: { title, subject, description, time, images } })} 
         className="emailRow"
     >
         <div className="emailRow__options">

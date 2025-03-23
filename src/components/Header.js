@@ -52,7 +52,7 @@ const Header = () => {
       <div className="overlay__intro">
         {show && 
           <div className="header__overlay__content">
-            <h5>maggie.guo@uwaterloo.ca</h5>
+            <h5>maggieguo2138@gmail.com</h5>
             <Avatar src={me} sx={{ height: '100px', width: '100px' }}/>
             <div className="header__overlay__info">
               <h4>Hi, I'm Maggie!</h4>
