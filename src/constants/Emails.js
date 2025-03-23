@@ -1,10 +1,12 @@
+// put images, avatars in public folder
+
 export const home = [
     {
         title: 'About Me',
         subject: "Hey, I'm Maggie!",
         description: 'Description',
         time: 'Mar 23',
-        images: ['logo192.png', 'logo192.png', 'logo192.png'],
+        images: ['trail.jpg', 'mtl.jpg', 'friends.jpg'],
         avatar: 'me2.jpg'
     },
     {
@@ -12,15 +14,24 @@ export const home = [
         subject: 'My past internships and experiences :)',
         description: 'Description',
         time: 'Mar 23',
-        images: ['logo192.png']
+        images: ['blackberry.jpg'],
+        avatar: 'prevat.svg'
     },
     {
-      title: 'Looking Ahead',
+      title: 'Plans',
       subject: 'My upcoming and in-progress goals',
       description: 'Description',
       time: 'Mar 23',
       images: []
-  },
+    },
+    {
+      title: 'Extracurriculars',
+      subject: 'What I do outside of school',
+      description: 'Description',
+      time: 'Mar 22',
+      images: ['hcilab.jpg', 'dscshark.jpg', 'wsai.jpg'], 
+      avatar: 'bertinshark.jpg'
+    },
 
 ];
 

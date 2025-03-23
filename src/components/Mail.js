@@ -116,7 +116,7 @@ const Mail = () => {
                             maxHeight: { xs: '5rem', md: '20rem' },
                             maxWidth: { xs: '5rem', md: '20rem' },
                         }}
-                        style={{ backgroundColor: 'whitesmoke'}}
+                        style={{ backgroundColor: 'whitesmoke', objectFit: 'cover'}}
                         alt=""
                         src={`${process.env.PUBLIC_URL}/${image}`}
                     />

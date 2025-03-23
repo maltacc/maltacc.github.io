@@ -36,7 +36,6 @@
 .emailRow__message {
     display: flex;
     flex: 1; 
-    align-items: center;
     font-size: 13px;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -52,6 +51,10 @@
 .emailRow__title {
     font-size: 14px;
     flex: 0.13;
+    width: 150px; 
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .emailRow__time {
