@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmaltacc_github_io=self.webpackChunkmaltacc_github_io||[]).push([[597],{597:(a,c,e)=>{a.exports=e.p+"static/media/Looking Ahead.31d6cfe0d16ae931b73c.md"}}]);

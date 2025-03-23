@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmaltacc_github_io=self.webpackChunkmaltacc_github_io||[]).push([[918],{918:(a,c,t)=>{a.exports=t.p+"static/media/Test Email 1.128e8c1c19307bbab525.md"}}]);

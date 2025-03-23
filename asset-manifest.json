@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/me-site/static/css/main.2546ce1b.css",
-    "main.js": "/me-site/static/js/main.911512b5.js",
-    "static/js/324.e6cfb839.chunk.js": "/me-site/static/js/324.e6cfb839.chunk.js",
-    "static/js/796.e8107800.chunk.js": "/me-site/static/js/796.e8107800.chunk.js",
-    "static/js/597.1942c052.chunk.js": "/me-site/static/js/597.1942c052.chunk.js",
-    "static/js/206.3e481911.chunk.js": "/me-site/static/js/206.3e481911.chunk.js",
-    "static/js/918.c06a1489.chunk.js": "/me-site/static/js/918.c06a1489.chunk.js",
-    "static/js/453.1d81c6d3.chunk.js": "/me-site/static/js/453.1d81c6d3.chunk.js",
-    "static/media/mountains.jpg": "/me-site/static/media/mountains.54abda355d51b15413bc.jpg",
-    "static/media/me2.jpg": "/me-site/static/media/me2.74c557c325458572e7ae.jpg",
-    "static/media/gmail.svg": "/me-site/static/media/gmail.9485ae091865a4338edc53a01581079d.svg",
-    "static/media/Previously At.md": "/me-site/static/media/Previously At.1f2cb4b1295ae4b81f5c.md",
-    "static/media/Extracurriculars.md": "/me-site/static/media/Extracurriculars.e68011464bb97fcb02b2.md",
-    "static/media/About Me.md": "/me-site/static/media/About Me.14f3ff19c27fe15f4e2c.md",
-    "index.html": "/me-site/index.html",
-    "static/media/Test Email 1.md": "/me-site/static/media/Test Email 1.128e8c1c19307bbab525.md",
-    "static/media/Looking Ahead.md": "/me-site/static/media/Looking Ahead.31d6cfe0d16ae931b73c.md",
-    "main.2546ce1b.css.map": "/me-site/static/css/main.2546ce1b.css.map",
-    "main.911512b5.js.map": "/me-site/static/js/main.911512b5.js.map",
-    "453.1d81c6d3.chunk.js.map": "/me-site/static/js/453.1d81c6d3.chunk.js.map"
+    "main.css": "/maltacc.github.io/static/css/main.b0e7c26e.css",
+    "main.js": "/maltacc.github.io/static/js/main.fde483a2.js",
+    "static/js/324.96008ff9.chunk.js": "/maltacc.github.io/static/js/324.96008ff9.chunk.js",
+    "static/js/796.2631b61c.chunk.js": "/maltacc.github.io/static/js/796.2631b61c.chunk.js",
+    "static/js/597.39664efe.chunk.js": "/maltacc.github.io/static/js/597.39664efe.chunk.js",
+    "static/js/206.0c814e64.chunk.js": "/maltacc.github.io/static/js/206.0c814e64.chunk.js",
+    "static/js/918.2ad986a9.chunk.js": "/maltacc.github.io/static/js/918.2ad986a9.chunk.js",
+    "static/js/453.0b5cb9f5.chunk.js": "/maltacc.github.io/static/js/453.0b5cb9f5.chunk.js",
+    "static/media/mountains.jpg": "/maltacc.github.io/static/media/mountains.54abda355d51b15413bc.jpg",
+    "static/media/me2.jpg": "/maltacc.github.io/static/media/me2.74c557c325458572e7ae.jpg",
+    "static/media/gmail.svg": "/maltacc.github.io/static/media/gmail.9485ae091865a4338edc53a01581079d.svg",
+    "static/media/Previously At.md": "/maltacc.github.io/static/media/Previously At.351412e496c435cbc02e.md",
+    "static/media/Extracurriculars.md": "/maltacc.github.io/static/media/Extracurriculars.e68011464bb97fcb02b2.md",
+    "index.html": "/maltacc.github.io/index.html",
+    "static/media/About Me.md": "/maltacc.github.io/static/media/About Me.14f3ff19c27fe15f4e2c.md",
+    "static/media/Test Email 1.md": "/maltacc.github.io/static/media/Test Email 1.128e8c1c19307bbab525.md",
+    "static/media/Looking Ahead.md": "/maltacc.github.io/static/media/Looking Ahead.31d6cfe0d16ae931b73c.md",
+    "main.b0e7c26e.css.map": "/maltacc.github.io/static/css/main.b0e7c26e.css.map",
+    "main.fde483a2.js.map": "/maltacc.github.io/static/js/main.fde483a2.js.map",
+    "453.0b5cb9f5.chunk.js.map": "/maltacc.github.io/static/js/453.0b5cb9f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2546ce1b.css",
-    "static/js/main.911512b5.js"
+    "static/css/main.b0e7c26e.css",
+    "static/js/main.fde483a2.js"
   ]
 }
