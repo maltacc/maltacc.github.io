@@ -4,14 +4,15 @@ export const home = [
         subject: "Hey, I'm Maggie!",
         description: 'Description',
         time: 'Mar 23',
-        images: ['/attachments/logo192.png', '/attachments/logo192.png', '/attachments/logo192.png', '/attachments/logo192.png', '/attachments/logo192.png', '/attachments/logo192.png']
+        images: ['logo192.png', 'logo192.png', 'logo192.png'],
+        avatar: 'me2.jpg'
     },
     {
         title: 'Previously At',
         subject: 'My past internships and experiences :)',
         description: 'Description',
         time: 'Mar 23',
-        images: ['/attachments/logo192.png']
+        images: ['logo192.png']
     },
     {
       title: 'Looking Ahead',
@@ -29,7 +30,7 @@ export const about = [
     subject: 'Promo Subject 1', 
     description: 'Promo Description 1', 
     time: '11:00 AM',
-    images: []
+    images: [],
   },
   // Add more promotion emails as needed...
 ];

@@ -2,7 +2,7 @@ import React from 'react'
 import './Mail.css'
 import ArrowBackOutlinedIcon from '@mui/icons-material/ArrowBackOutlined';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-import { IconButton } from '@mui/material';
+import { IconButton, Avatar } from '@mui/material';
 import { useNavigate, useLocation } from "react-router-dom";
 import ArchiveOutlinedIcon from '@mui/icons-material/ArchiveOutlined';
 import ReportGmailerrorredOutlinedIcon from '@mui/icons-material/ReportGmailerrorredOutlined';
@@ -18,11 +18,12 @@ import StarBorderOutlinedIcon from '@mui/icons-material/StarBorderOutlined';
 import EmojiEmotionsOutlinedIcon from '@mui/icons-material/EmojiEmotionsOutlined';
 import ReplyOutlinedIcon from '@mui/icons-material/ReplyOutlined';
 import Box from '@mui/material/Box';
+import img from '../assets/me2.jpg';
 
 const Mail = () => {
     const navigate = useNavigate();
     const location = useLocation();
-    const { title, subject, description, time, images } = location.state || {}; // Extract email data
+    const { title, subject, description, time, images, avatar = undefined } = location.state || {}; // Extract email data
 
     return (
     <div className="mail">
@@ -70,8 +71,10 @@ const Mail = () => {
                 <h2>{title}</h2>
             </div>
             <div className="mail__bodySubheader">
-                {/* <Avatar /> */}
                 <div className="mail__bodySubheaderLeft">
+                    {console.log("avatar: ", avatar)}
+                    {console.log("avatar link: ", `${process.env.PUBLIC_URL}/${avatar}`)}
+                    {avatar && <Avatar src={`${process.env.PUBLIC_URL}/${avatar}`} />}
                     <p style={{ fontWeight: 'bold' }}>{subject}</p>
                 </div>
                 <div className="mail__bodySubheaderRight">
@@ -113,11 +116,11 @@ const Mail = () => {
                             maxHeight: { xs: '5rem', md: '20rem' },
                             maxWidth: { xs: '5rem', md: '20rem' },
                         }}
-                        style={{ backgroundColor: 'gray'}}
+                        style={{ backgroundColor: 'whitesmoke'}}
                         alt=""
-                        src={image}
+                        src={`${process.env.PUBLIC_URL}/${image}`}
                     />
-                    <div className="overlay__cardinfo"></div>
+                    {/* <div className="overlay__cardinfo"></div> */}
                 </div>
             ))}
         </div>

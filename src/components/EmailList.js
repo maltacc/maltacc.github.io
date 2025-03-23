@@ -113,6 +113,7 @@ const EmailList = () => {
                             description={descriptions[email.title]}
                             time={email.time}
                             images={email.images}
+                            avatar={email.avatar}
                         />
                     ))}
                 </>

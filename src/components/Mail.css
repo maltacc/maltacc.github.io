@@ -88,6 +88,13 @@
     padding-right: 20px;   
 }
 
+.mail__bodySubheaderLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
 .mail__bodySubheaderRight {
     display: flex;
     /* right: 0;
@@ -117,11 +124,11 @@
     align-items: center; 
     overflow: hidden; 
     margin: 10px;
-    border-radius: 10px;
+    border: 1px solid rgb(201, 201, 201);;
 }
 
 .overlay__cardinfo {
-    background-color: blue; 
+    background-color: #ea4335; 
     color: white; 
     padding: 10px; 
     text-align: center; 
