@@ -29,7 +29,7 @@ const Header = () => {
             <IconButton>
               <SearchIcon />
             </IconButton>
-              <input placeholder="Search mail" type="text"/>
+              <input placeholder="Learn About Me" type="text"/>
               <IconButton>
                 <TuneIcon className="header__tuneicon" />
               </IconButton>

@@ -18,19 +18,19 @@ export const home = [
         avatar: 'prevat.svg'
     },
     {
-      title: 'Plans',
-      subject: 'My upcoming and in-progress goals',
-      description: 'Description',
-      time: 'Mar 23',
-      images: []
-    },
-    {
       title: 'Extracurriculars',
       subject: 'What I do outside of school',
       description: 'Description',
       time: 'Mar 22',
       images: ['hcilab.jpg', 'dscshark.jpg', 'wsai.jpg'], 
       avatar: 'bertinshark.jpg'
+    },
+    {
+      title: 'Plans',
+      subject: 'My upcoming and in-progress goals',
+      description: 'Description',
+      time: 'Mar 23',
+      images: []
     },
 
 ];
