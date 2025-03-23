@@ -32,7 +32,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://maltacc.github.io/maltacc.github.io",
+  "homepage": "https://maltacc.github.io/",
   "browserslist": {
     "production": [
       ">0.2%",
