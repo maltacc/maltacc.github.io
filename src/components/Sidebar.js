@@ -17,7 +17,7 @@ const Sidebar = () => {
             <Button onClick={() => window.location = 'mailto:maggieguo2138@gmail.com'} startIcon={<EditOutlinedIcon fontSize='large' style={{color: 'gray'}}/>} className="sidebar_compose">Contact</Button>
         </div>
         <div className="sidebar_container">
-            <SidebarOption Icon={InboxRoundedIcon} title="Inbox" number={54} selected={true}/>
+            <SidebarOption Icon={InboxRoundedIcon} title="Inbox" number={54} selected={true} />
             <SidebarOption Icon={StarBorderOutlinedIcon} title="Starred" number={54} />
             <SidebarOption Icon={AccessTimeOutlinedIcon} title="Snoozed" number={54} />
             <SidebarOption Icon={NearMeOutlinedIcon} title="Sent" number={54}  />
