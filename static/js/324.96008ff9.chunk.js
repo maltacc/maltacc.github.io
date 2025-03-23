@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmaltacc_github_io=self.webpackChunkmaltacc_github_io||[]).push([[324],{324:(c,e,t)=>{c.exports=t.p+"static/media/About Me.14f3ff19c27fe15f4e2c.md"}}]);

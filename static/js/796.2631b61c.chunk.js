@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmaltacc_github_io=self.webpackChunkmaltacc_github_io||[]).push([[796],{796:(c,a,t)=>{c.exports=t.p+"static/media/Extracurriculars.e68011464bb97fcb02b2.md"}}]);

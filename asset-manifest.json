@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.2355f96a.css",
-    "main.js": "/static/js/main.e0bb11b8.js",
-    "static/js/324.96008ff9.chunk.js": "/static/js/324.96008ff9.chunk.js",
-    "static/js/796.2631b61c.chunk.js": "/static/js/796.2631b61c.chunk.js",
-    "static/js/597.39664efe.chunk.js": "/static/js/597.39664efe.chunk.js",
-    "static/js/206.0c814e64.chunk.js": "/static/js/206.0c814e64.chunk.js",
-    "static/js/918.2ad986a9.chunk.js": "/static/js/918.2ad986a9.chunk.js",
-    "static/js/453.0b5cb9f5.chunk.js": "/static/js/453.0b5cb9f5.chunk.js",
+    "main.js": "/static/js/main.535e40c4.js",
+    "static/js/324.e6cfb839.chunk.js": "/static/js/324.e6cfb839.chunk.js",
+    "static/js/796.e8107800.chunk.js": "/static/js/796.e8107800.chunk.js",
+    "static/js/597.1942c052.chunk.js": "/static/js/597.1942c052.chunk.js",
+    "static/js/206.057ed49a.chunk.js": "/static/js/206.057ed49a.chunk.js",
+    "static/js/918.c06a1489.chunk.js": "/static/js/918.c06a1489.chunk.js",
+    "static/js/453.1d81c6d3.chunk.js": "/static/js/453.1d81c6d3.chunk.js",
     "static/media/mountains.jpg": "/static/media/mountains.54abda355d51b15413bc.jpg",
     "static/media/me2.jpg": "/static/media/me2.74c557c325458572e7ae.jpg",
     "static/media/gmail.svg": "/static/media/gmail.9485ae091865a4338edc53a01581079d.svg",
@@ -18,11 +18,11 @@
     "static/media/Test Email 1.md": "/static/media/Test Email 1.128e8c1c19307bbab525.md",
     "static/media/Looking Ahead.md": "/static/media/Looking Ahead.31d6cfe0d16ae931b73c.md",
     "main.2355f96a.css.map": "/static/css/main.2355f96a.css.map",
-    "main.e0bb11b8.js.map": "/static/js/main.e0bb11b8.js.map",
-    "453.0b5cb9f5.chunk.js.map": "/static/js/453.0b5cb9f5.chunk.js.map"
+    "main.535e40c4.js.map": "/static/js/main.535e40c4.js.map",
+    "453.1d81c6d3.chunk.js.map": "/static/js/453.1d81c6d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2355f96a.css",
-    "static/js/main.e0bb11b8.js"
+    "static/js/main.535e40c4.js"
   ]
 }
