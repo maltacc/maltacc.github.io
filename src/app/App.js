@@ -9,7 +9,7 @@ import Mail from '../components/Mail';
 
 function App() {
   return (
-    <Router basename={'/me-site'}>
+    <Router basename={'/maltacc.github.io'}>
       <div className="app">
         <Header />
         <div className="app__body">

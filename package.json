@@ -1,5 +1,5 @@
 {
-  "name": "me-site",
+  "name": "maltacc.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -32,7 +32,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://maltacc.github.io/me-site",
+  "homepage": "https://maltacc.github.io/maltacc.github.io",
   "browserslist": {
     "production": [
       ">0.2%",
