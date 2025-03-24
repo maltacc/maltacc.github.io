@@ -15,6 +15,7 @@ import PeopleAltIcon from '@mui/icons-material/PeopleAlt';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import EmailRow from './EmailRow';
 import { home, about, skills, resume } from '../constants/Emails';
+import Maggie_Guo_Resume from '../assets/Maggie_Guo_Resume.pdf';
 
 const EmailList = () => {
   const [selectedSection, setSelectedSection] = useState('Home'); // Default section
@@ -147,7 +148,7 @@ const EmailList = () => {
                 </>
             )}
             {selectedSection === 'Resume' && (
-                <>
+                <div className="resume__Container">
                     {resume.map((email) => (
                         <EmailRow 
                             key={email.id} // Ensure each EmailRow has a unique key
@@ -158,7 +159,8 @@ const EmailList = () => {
                             images={email.images}
                         />
                     ))}
-                </>
+                    <embed src={Maggie_Guo_Resume} type="application/pdf" width='100%' height='100%'/>
+                </div>
             )}
         </div>
     </div>
