@@ -37,8 +37,8 @@ export const home = [
 
 export const about = [
   { 
-    title: 'Test Email 1', 
-    subject: 'Promo Subject 1', 
+    title: 'My Bookshelf', 
+    subject: 'Welcome to my bookshelf! ', 
     description: 'Promo Description 1', 
     time: '11:00 AM',
     images: [],

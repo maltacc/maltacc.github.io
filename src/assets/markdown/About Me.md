@@ -1,6 +1,7 @@
 I'm a 3rd year computer science student at the University of Waterloo and currently a SWE intern at Microsoft Seattle on Azure Cloud Services. Previously I've worked at [Miovision](https://miovision.com/), [PointClickCare](https://pointclickcare.com/), and [BlackBerry](https://blackberry.qnx.com/en/products/automotive/blackberry-ivy).
 
 In my spare time, I like to:
+- listen to lectures (check out Nick Mount for literature and Robert Sapolsky for human behavior!)
 - read up on art history
 - visit museums & sketch
 - hike

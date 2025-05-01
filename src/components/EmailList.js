@@ -119,7 +119,7 @@ const EmailList = () => {
                     ))}
                 </>
             )}
-            {selectedSection === 'Promotions' && (
+            {selectedSection === 'About' && (
                 <>
                     {about.map((email) => (
                         <EmailRow 
