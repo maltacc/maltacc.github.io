@@ -1,0 +1,13 @@
+Below are a collection of books taken from my Books app!
+- *Shooting an Elephant*, George Orwell
+- *Once More to the Lake*, EB White
+- *A Raisin in the Sun*, Lorraine Hansberry
+- *Glory*, Noviolet Bulawayo
+- *Americanah*, Chimamanda Ngozi Adichie
+- *The Vegetarian*, Han Kang
+- *Kim Jiyoung, Born 1982*, Cho Nam-Joo
+- *No Longer Human*, Osamu Dazai
+- *The Stranger*, Albert Camus
+- *One Hundred Years of Solitude*, Gabriel Garcia Marquez
+- *The God of Small Things*, Arundhati Roy
+- *Everything that Rises Must Converge*, Flannery O'Connor
